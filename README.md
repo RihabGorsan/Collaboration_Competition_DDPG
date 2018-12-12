@@ -41,8 +41,6 @@ Unzip the file hen place it in the cloned project.
 ## Train your agent
 You can execute each code block in the ddpg notebook to train the agent using DDPG.  This will fire up the Unity environment and output live training statistics to the command line.  When training is finished you'll have the two saved models in `checkpoint_actor.pth` and  `checkpoint_critic.pth`.
 
-To watch your trained agent interact with the environment run `python dqn.py`, just set `train` parameter to False and assign the path of the trained weights to the `filename` parameter.  This will load the saved weights from the checkpoint files. 
-
 Feel free to experiment with modifying the hyperparameters to see how it affects training:
 
 - [model.py](model.py) : you can change the architecture of the network.
