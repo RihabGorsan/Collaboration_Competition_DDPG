@@ -49,4 +49,4 @@ Feel free to experiment with modifying the hyperparameters to see how it affects
 - [ddpy_agent.py](ddpg_agent.py) : play with the hyperparams of the RL agent.
 
 ## Report
-See the [report](REPORT.md) for more details.  
+See the [report](report.md) for more details.  
