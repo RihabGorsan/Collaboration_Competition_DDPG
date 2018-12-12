@@ -38,7 +38,32 @@ Hyperparameters (defined in ddpg_agent.py)
 
 # Plot of Rewards
 
+Environment solved in 1880 episodes!
 This chart illustrates the rewards received per episode. We consider the problem solved when the agent reaches at least +0.5 points over 100 episodes. In our case, it took 2700 episodes to achieve this goal.
+
+
+```
+Episode 100	Average Score: -0.003	Score: -0.005
+Episode 200	Average Score: -0.003	Score: -0.005
+Episode 300	Average Score: 0.001	Score: -0.0055
+Episode 400	Average Score: 0.004	Score: -0.005
+Episode 500	Average Score: 0.011	Score: -0.005
+Episode 600	Average Score: 0.012	Score: 0.0455
+Episode 700	Average Score: -0.002	Score: -0.005
+Episode 800	Average Score: 0.006	Score: -0.0055
+Episode 900	Average Score: 0.044	Score: 0.0455
+Episode 1000	Average Score: 0.063	Score: 0.045
+Episode 1100	Average Score: 0.063	Score: -0.005
+Episode 1200	Average Score: 0.106	Score: 0.0955
+Episode 1300	Average Score: 0.115	Score: 0.1455
+Episode 1400	Average Score: 0.153	Score: 0.0455
+Episode 1500	Average Score: 0.123	Score: 0.2455
+Episode 1600	Average Score: 0.174	Score: 0.0955
+Episode 1700	Average Score: 0.212	Score: 0.0955
+Episode 1800	Average Score: 0.361	Score: 0.1955
+Episode 1880	Average Score: 0.502	Score: 0.3955
+Environment solved in 1880 episodes!
+```
 
 ![Rewards per episode](rewards_per_episode.png)
 
